@@ -8,13 +8,18 @@ Este repositorio tiene el siguiente contenido:
 
   :green_circle: Memoria
   
-  :green_circle: Ejecutable Windows
+  :green_circle: Videojuego Windows
   
-  :green_circle: Ejecutable Android
+  :green_circle: Videojuego Android
+  - Ejecutable: carpeta ejecutable
+- Código fuente: carpeta CarpetaComprimida
+- Scripts: carpeta Scripts
+
+:green_circle: Código fuente Windows
+  - Ejecutable: carpeta ejecutable
+- Código fuente: carpeta ..
+- Scripts: carpeta ..
   
-  :green_circle: Código fuente Windows
   
-  :green_circle: Código fuente Android
-  
-  :yellow_circle: Presentación del TFG: pendiente de terminar
+:yellow_circle: Presentación del TFG: pendiente de terminar
 

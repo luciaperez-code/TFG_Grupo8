@@ -1,0 +1,111 @@
+
+.contenedor{
+    padding-top: 50px;
+}
+
+h2{
+    margin-left: 25%;
+    margin-bottom: 0;
+    font-size: 20pt;
+    background-color: rgb(255, 160, 0);
+    width: fit-content;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+form{
+    margin-left: 25%;
+    padding:25px;
+    width: 50%;
+    height: fit-content;
+    font-size: 14pt;
+    background-color: rgb(255, 209, 73);
+    border: solid 2px rgb(255, 160, 0);
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+form div input, select{
+    width: 50%;
+}
+
+.sub-espana{
+    display: none;
+}
+
+.paises{
+    display: none;
+}
+
+.obligatorio{
+    color: red;
+    font-size: 12pt;
+}
+
+.error{
+    display: none;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.check input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.check a:hover{
+    color: orange;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botones input{
+    width: 100px;
+    height: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 14pt;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.aceptar{
+    background-color: rgb(255, 160, 0);
+    color: white;
+    border: 0px;
+}
+
+.aceptar:hover{
+    background-color: white;
+    color: rgb(255, 160, 0);
+    border: solid 2px rgb(255, 160, 0);
+}
+
+.borrar{
+    background-color: white;
+    color: rgb(255, 160, 0);
+    border: solid 2px rgb(255, 160, 0);
+}
+
+.borrar:hover{
+    background-color: rgb(255, 160, 0);
+    color: white;
+}

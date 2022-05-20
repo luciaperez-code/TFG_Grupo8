@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    background-color: #ffa000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    height: 70px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.menu-logo{
+    width: 70px;
+    height: 70px;
+}
+
+.menu-links{
+    height: 100%;
+    transition: transform .5s;
+    display: flex;
+}
+
+.menu-item{
+    list-style: none;
+    position: relative;
+    height: 100%;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --transform: rotate(-90deg);
+}
+
+.menu-item:hover{
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(0deg);
+}
+
+.menu-link{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu-link:hover{
+    background-color: #ffd149;
+    
+}
+
+.menu-arrow{
+    transform: var(--transform);
+    transition: transform .3s;
+    display: block;
+    margin-left: 3px;
+}
+
+.menu-nesting{
+    list-style: none;
+    transition: clip-path .3s;
+    clip-path: var(--clip);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: max-content;
+    transform: translateY(100%);
+    background-color: #ffa000;
+}
+
+.menu-link-inside{
+    padding: 30px 100px 30px 20px;
+}
+
+.menu-hamburger{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-img{
+    display: block;
+    width: 36px;
+}
+
+/*--------------------------------------------MEDIA QUERIES--------------------------------------------------*/
+
+@media (max-width:800px){
+    .menu-hamburger{
+        display: flex;
+    }
+
+    .menu-item{
+        --clip:0;
+        overflow: hidden;
+    }
+
+    .menu-item-active{
+        --transform:rotate (0);
+        --background: #ffd149;
+    }
+
+    .menu-item-show{
+        background-color: var(--background);
+    }
+
+    .menu-links{
+        position: fixed;
+        max-width: 400px;
+        width: 100%;
+        top: 70px;
+        bottom: 0;
+        right: 0;
+        background-color: #ffa000;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+        transform: translateX(100%);
+    }
+
+    .menu-links-show{
+        transform: unset;
+        width: 100%;
+    }
+
+    .menu-link{
+        padding: 25px 0;
+        padding-left: 30px;
+        height: auto;
+    }
+
+    .menu-arrow{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .menu-nesting{
+        display: grid;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+        transition: height .3s;
+    }
+
+    .menu-link-inside{
+        width: 90%;
+        margin-left: auto;
+        border-left: #ffd149;
+    }
+}

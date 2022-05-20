@@ -1,0 +1,45 @@
+
+
+
+.contenido-guia{
+    padding: 30px;
+}
+
+.contenido-guia h2{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.bloque-texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 15px;
+    justify-items: center;
+}
+
+.bloque-texto div{
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.bloque-texto p{
+    font-size: 18px;
+}
+
+.bloque-texto img{
+    height: 250px;
+    margin-top: 15px;
+    max-width: 100%;
+}
+
+
+@media(max-width:800px){
+    .bloque-texto{
+        display: block;
+    }
+
+    .bloque-texto img{
+        height: fit-content;
+    }
+}

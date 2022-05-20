@@ -11,15 +11,17 @@ Este repositorio tiene el siguiente contenido:
   :green_circle: Videojuego Windows
   
   :green_circle: Videojuego Android
-  - Ejecutable: carpeta ejecutable
-- Código fuente: carpeta CarpetaComprimida
+  - Ejecutable: link en carpeta ejecutable
+- Código fuente: link en carpeta CarpetaComprimida
 - Scripts: carpeta Scripts
 
 :green_circle: Código fuente Windows
-  - Ejecutable: carpeta ejecutable
-- Código fuente: carpeta ..
+  - Ejecutable: link en carpeta ejecutable
+- Código fuente: link en carpeta ..
 - Scripts: carpeta ..
   
   
 :yellow_circle: Presentación del TFG: pendiente de terminar
 
+
+Debido al peso de todos los archivos (superior a los 25MB permitidos por Github), se ha optado por adjuntar el link a carpetas de Google Drive donde acceder a los archivos necearios.

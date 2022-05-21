@@ -7,18 +7,16 @@ Somos el grupo 8 y este es nuestro Trabajo de Fin de Grado. El grupo lo formamos
 Este repositorio tiene el siguiente contenido:
 
   :green_circle: Memoria
-  
-  :green_circle: Videojuego Windows
-  
+    
   :green_circle: Videojuego Android
   - Ejecutable: link en carpeta ejecutable
 - Código fuente: link en carpeta CarpetaComprimida
-- Scripts: carpeta Scripts
+- Scripts: dentro de la carpeta Android y B12
 
-:green_circle: Código fuente Windows
+:green_circle: Videojuego Windows
   - Ejecutable: link en carpeta ejecutable
-- Código fuente: link en carpeta ..
-- Scripts: carpeta ..
+- Código fuente: link en carpeta CarpetaComprimida
+- Scripts: carpeta dentro de la carpeta Windows y B12
   
   
 :yellow_circle: Presentación del TFG: pendiente de terminar
